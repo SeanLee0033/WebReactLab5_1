@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table td, .table th {
+    padding: 12px 15px;
+    border: 1px solid rgb(68, 123, 145);
+    text-align: center;
+    font-size: 16px;
+}
+.table th {
+    background-color: rgb(15, 73, 65);
+    color: white;
+}
+.table tbody tr:nth-child(even){
+    background-color: #7a9b8d;
+}
